@@ -1,0 +1,19 @@
+{
+    "name": "@store/core",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup src/index.ts --minify && tsc --emitDeclarationOnly --outDir dist",
+        "dev": "tsup src/index.ts --dts --watch",
+        "test": "jest --watchAll --collectCoverage"
+    },
+    "keywords": [],
+    "author": "NatanR-dev",
+    "license": "ISC",
+    "devDependencies": {
+        "tsup": "^8.5.0",
+        "typescript": "^5.8.3"
+    }
+}

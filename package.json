@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
